@@ -1,0 +1,9 @@
+gazisiber-fetch (1.0.0-1) unstable; urgency=medium
+
+  * Initial release
+  * System information display tool
+  * Fast and lightweight alternative to fastfetch/neofetch
+  * Colorful ASCII art display
+  * Hardware and system information fetching
+
+ -- GaziSiber <admin@gazisiber.com>  Wed, 01 Jan 2026 14:39:00 +0000

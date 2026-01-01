@@ -1,0 +1,22 @@
+Source: gazisiber-fetch
+Section: utils
+Priority: optional
+Maintainer: GaziSiber <admin@gazisiber.com>
+Build-Depends: debhelper (>= 11), python3-all, python3-setuptools, dh-python
+Standards-Version: 4.5.0
+Homepage: https://github.com/AbdullahZeynel/gazisiber-fetch
+
+Package: gazisiber-fetch
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3 (>= 3.6)
+Description: A system information display tool for Linux
+ GaziSiber Fetch is a fast and lightweight system information tool
+ for Linux. It displays system information in a visually appealing
+ format with color support.
+ .
+ Features include:
+  - OS and kernel information
+  - Hardware information (CPU, Memory, GPU)
+  - System information (hostname, uptime, shell)
+  - Colorful ASCII art display
+  - Fast execution time
