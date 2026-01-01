@@ -139,8 +139,8 @@ class SystemInfo:
     
     def _get_gpu_info(self):
         """Get GPU information"""
-        # Try lspci first
-        gpu = self._run_command("lspci | grep -i 'vga\\|3d\\|display' | head -1 | cut -d':' -f3")
+        # Try lspci first - get everything after "VGA compatible controller:" or similar
+        gpu = self._run_command("lspci | grep -i 'vga\\|3d\\|display' | head -1 | sed 's/.*: //'")
         if gpu and gpu != "Unknown" and gpu.strip():
             return gpu.strip()
         

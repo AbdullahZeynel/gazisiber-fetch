@@ -3,7 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: GaziSiber <admin@gazisiber.com>
 Build-Depends: debhelper (>= 11), python3-all, python3-setuptools, dh-python
-Standards-Version: 4.5.0
+Standards-Version: 4.6.0
 Homepage: https://github.com/AbdullahZeynel/gazisiber-fetch
 
 Package: gazisiber-fetch
