@@ -18,11 +18,7 @@
   "modules": [
     {
         "type": "custom",
-        "format": "\u001b[1;32mGAZİ SİBER GÜVENLİK"
-    },
-    {
-        "type": "custom",
-        "format": "\u001b[1;32mARAŞTIRMA VE GELİŞTİRME TOPLULUĞU"
+        "format": "\u001b[1;32mGAZİSİBER"
     },
     {
         "type": "datetime",
